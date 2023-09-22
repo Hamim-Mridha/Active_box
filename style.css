@@ -195,7 +195,6 @@ ul li{
 .overlay{
     height: 100%;
     width: 100%;
-    /* background: #8B3231; */
     position: absolute;
     top: 0;
     left: 0;
@@ -248,18 +247,10 @@ ul li{
     justify-content: space-between;
     
 
-    /* ....This class is not working
-    I can't find any problem.... 
-     Without this class the 4 divs staying horizontally not vertically */
-
 }
 
 .team-member{
     max-width: calc(25% - 22.5px);
-
-    /* ....This class is not working
-    i can't find any problem....
-     Without this class all the 4 images are maintaining equal distance from each other  */
 }
 
 .team-member h3, .team-member p{
@@ -288,7 +279,6 @@ ul li{
     display: flex;
     column-gap: 4px
 
-    /* .....Without (display:flex) the icons are  maintaining horizontally distance from each-other.But without (display:flex) they should have come vertically...... even if we remove the whole class the icon remains.... */
 }
 
 .team_social-icon a{
@@ -305,16 +295,12 @@ ul li{
     cursor: pointer;
     font-size: 180%;
 }
-    
-    /* .............Why justify content and align-items aren't working.........  */
-   
 
 .team_social-icon a i {
     color: #77797A;
 }
 
-/* ...............TestimonialSection.................  */
-
+/* ...............TestimonialSection......... */
 .testimonial-section{
     background-color: #32202C;
 
